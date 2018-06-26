@@ -9,4 +9,6 @@ class Application
     else
       puts "Good Afternoon"
   end
+  
+  resp.finish
 end
