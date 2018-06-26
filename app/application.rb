@@ -5,9 +5,9 @@ class Application
     t = Time.now
     
     if t < 12:00
-      puts "Good Morning"
+      puts "Good Morning!"
     else
-      puts "Good Afternoon"
+      puts "Good Afternoon!"
   end
   
   resp.finish
