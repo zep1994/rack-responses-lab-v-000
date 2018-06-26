@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     t = Time.now
     binding.pry
-    if t < 12
+    if t < 12:00
       puts "Good Morning"
     else
       puts "Good Afternoon"
