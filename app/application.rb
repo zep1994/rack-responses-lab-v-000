@@ -3,7 +3,7 @@ class Application
   def call(env)
     resp = Rack::Response.new
     t = Time.now
-    
+    binding.pry
     if t < 12
       puts "Good Morning"
     else
