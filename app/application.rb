@@ -2,7 +2,7 @@ class Application
   
   def call(env)
     resp = Rack::response.new
-    t = time.inspect
+    t = Time.now
     
     if t < 12
       puts "Good Morning"
